@@ -23,7 +23,7 @@ pipeline {
         }
         stage('fifth stage'){
             steps {
-                sh 'mv "text.txt /Test.txt"'
+                sh 'mv "text.txt" "Test.txt"'
             }
         }
     }
