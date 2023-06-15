@@ -18,12 +18,12 @@ pipeline {
         }
         stage('fourth stage'){
             steps {
-                touch "text.txt"  
+                sh 'touch "text.txt"'  
             }
         }
         stage('fifth stage'){
             steps {
-                mv "text.txt Test.txt" 
+                sh 'mv "text.txt Test.txt"'
             }
         }
     }
