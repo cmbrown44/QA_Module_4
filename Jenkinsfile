@@ -26,3 +26,4 @@ pipeline {
                 mv "text.txt Test.txt" 
             }
         }
+    }
