@@ -6,23 +6,23 @@ pipeline {
                 sh "ls"
             }
         }
-        stage(‘second stage’){
+        stage('second stage'){
             steps {
-                sh “pwd”    
+                sh "pwd"    
             }
         }
-        stage(‘third stage’){
+        stage('third stage'){
             steps {
-                sh “echo 'Hello World'”    
+                sh "echo 'Hello World'"   
             }
         }
-        stage(‘fourth stage’){
+        stage('fourth stage'){
             steps {
-                touch “text.txt”    
+                touch "text.txt"  
             }
         }
-        stage(‘fifth stage’){
+        stage('fifth stage'){
             steps {
-                mv “text.txt Test.txt”    
+                mv "text.txt Test.txt" 
             }
         }
